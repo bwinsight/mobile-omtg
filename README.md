@@ -5,7 +5,7 @@ Mobile applications suffer from many forms of security vulnerabilities likewise 
 
 My solutions for these challanges have been published to help security researchers understand the fundamentals of mobile application security with examples.
 
-01. Bad Encryption
+[01. Bad Encryption](https://github.com/bwinsight/mobile-omtg/tree/master/01_bad_encryption)
 02. KeyChain
 03. KeyStore
 04. Internal Storage
