@@ -2,6 +2,7 @@
 
 > MSTG-CRYPTO-1: "The app does not rely on symmetric cryptography with hardcoded keys as a sole method of encryption."
 
+
 **Summary of the challenge:** Identify the password by reading the source code and decrypt the hardcoded secret.
 
 <br/>First, install the vulnerable OMTG mobile application to an Android test device using [Android Debug Bridge](https://developer.android.com/studio/command-line/adb):
@@ -13,7 +14,6 @@ app-arm-debug-Android5.apk: 1 file pushed. 4.1 MB/s (5810897 bytes in 1.344s)
         pkg: /data/local/tmp/app-arm-debug-Android5.apk
 Success
 ```
-<br/>
 
 Then, open the APK file using [JADX-GUI](https://github.com/skylot/jadx) tool to obtain the Java source code. This tool can decompile Dalvik bytecode to Java classes straight from APK. Find the relevant class and method which handles the password validation.
 
@@ -50,7 +50,6 @@ Despite of the hardcoded password is a Base64 string, it is not possible to reve
         return bytes;
     }
 ```
-<br/>
 
 After, the user submits the password, the `encrypt` method is called to perform the encryption. Each character of the byte array containing the user's input, then this will be changed by bitwise XOR and bitwise AND operators through a for loop. 
 
@@ -68,7 +67,6 @@ The AND logical operator denoted by `&` sign and returns bit by bit AND of input
 --------------------------------
 11111111111111111111111110001011 (binary result)
 ```
-<br/>
 
 There is a variable called `Ascii.DLE` which needs to be clarified before we move on. The value of this variable is `16` and it can be found in the [Guava: Google Core Libraries](https://github.com/google/guava/blob/master/guava/src/com/google/common/base/Ascii.java) source code.
 ```java
@@ -89,7 +87,6 @@ for i in range(len(encoded)):
 
 print(encoded.decode())
 ```
-<br/>
 
 Execute the Python script to reveal the password:
 
