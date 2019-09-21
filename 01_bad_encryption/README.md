@@ -2,7 +2,6 @@
 
 > MSTG-CRYPTO-1: "The app does not rely on symmetric cryptography with hardcoded keys as a sole method of encryption."
 
-
 **Summary of the challenge:** Identify the password by reading the source code and decrypt the hardcoded secret.
 
 <br/>First, install the vulnerable OMTG mobile application to an Android test device using [Android Debug Bridge](https://developer.android.com/studio/command-line/adb):
