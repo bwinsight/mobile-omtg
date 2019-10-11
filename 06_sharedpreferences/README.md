@@ -63,7 +63,7 @@ public class OMTG_DATAST_001_SharedPreferences extends AppCompatActivity {
 }
 ```
 
-Investigate the device file system:
+Investigate the device file system, SharedPreferences (key.xml) is readable by any applications:
 ```bash
 C:\>adb shell
 shell@osprey_umts:/ $ su
@@ -72,6 +72,15 @@ shell@osprey_umts:/data/data/sg.vp.owasp_mobile.omtg_android/shared_prefs # ls -
 -rw-rw-r-- u0_a120  u0_a120       170 2019-10-11 22:15 key.xml
 -rw-rw---- u0_a120  u0_a120       189 2019-10-06 20:37 sg.vp.owasp_mobile.omtg_android_preferences.xml
 shell@osprey_umts:/data/data/sg.vp.owasp_mobile.omtg_android/shared_prefs # cat key.xml
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="username">administrator</string>
+    <string name="password">supersecret</string>
+</map>
+shell@osprey_umts:/ # exit
+shell@osprey_umts:/ $ id
+uid=2000(shell) gid=2000(shell) groups=1003(graphics),1004(input),1007(log),1011(adb),1015(sdcard_rw),1028(sdcard_r),3001(net_bt_admin),3002(net_bt),3003(inet),3006(net_bw_stats) context=u:r:shell:s0
+shell@osprey_umts:/ $ cat /data/data/sg.vp.owasp_mobile.omtg_android/shared_prefs/key.xml
 <?xml version='1.0' encoding='utf-8' standalone='yes' ?>
 <map>
     <string name="username">administrator</string>
