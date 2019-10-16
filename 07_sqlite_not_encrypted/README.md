@@ -80,6 +80,6 @@ shell@osprey_umts:/data/data/sg.vp.owasp_mobile.omtg_android/databases # ls -la
 -rw-rw---- u0_a120  u0_a120     16384 2019-10-16 20:57 privateNotSoSecure
 -rw------- u0_a120  u0_a120      8720 2019-10-16 20:57 privateNotSoSecure-journal
 shell@osprey_umts:/data/data/sg.vp.owasp_mobile.omtg_android/databases # cat privateNotSoSecure
-Q �QT}tableAccountsAccountsCREATE TABLE Accounts(Username VARCHAR,Password VARCHAR)Wctableandroid_metadataandro
-�adminAdminPassadminAdminPass
+Q�QT}tableAccountsAccountsCREATE TABLE Accounts(Username VARCHAR,Password VARCHAR)Wctableandroid_metadataandro
+�adminAdminPassadminAdminPass
 ```
