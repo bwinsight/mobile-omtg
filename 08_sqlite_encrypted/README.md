@@ -56,7 +56,7 @@ C:\>frida -U sg.vp.owasp_mobile.omtg_android -l 08_sqlite_encrypted.js --no-paus
 [*] SQLiteDatabase.exeqSQL method is called with query: INSERT INTO Accounts VALUES('admin','AdminPassEnc');
 ```
 
-User credentials is stored in the `/data/data/sg.vp.owasp_mobile.omtg_android/databases/encrypted` file.
+User credentials is stored in the `/data/data/sg.vp.owasp_mobile.omtg_android/databases/encrypted` file and the key is `S3cr3tString!!!`.
 
 Due to the fact the source code of the application is not obfuscated, it is possible to obtain the sensitive information by decompiling the APK file using [JADX-GUI](https://github.com/skylot/jadx):
 ```java
@@ -101,3 +101,8 @@ L�~ߊ�e�3�H��w�O�!�����ȵƠ�ץ����)P<F��
 ȱ[�AV��c�p'_�cz\��%�SI;�dF/B^��w�|(�a�S�i���p�z��O*e� SR-&6�0��P0sK4E�۫*J^a�}G�b�*�K��a��� la��/ڍH����>�WE�H��~e�����a��*Sik|���s� ������X!D<���j��Ayl�Zw,{��ū
 [...]
 ```
+
+Reading the database file named `encrypted` with [SQLiteManager](https://www.sqlabs.com/sqlitemanager.php) is only possible by providing the database password:
+
+<img src="https://user-images.githubusercontent.com/55597077/66965527-e37b7380-f071-11e9-8ecf-8e98cfec77f1.png" width="377">
+<img src="https://user-images.githubusercontent.com/55597077/66965528-e37b7380-f071-11e9-957b-b980dbff95af.png" width="377">
