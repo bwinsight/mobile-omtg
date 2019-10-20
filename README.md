@@ -15,10 +15,10 @@ My solutions for these challanges have been published to help security researche
 <br>[08. SQLite Encrypted](https://github.com/bwinsight/mobile-omtg/tree/master/08_sqlite_encrypted)
 <br>[09. Logging](https://github.com/bwinsight/mobile-omtg/tree/master/09_logging)
 <br>[10. 3rd Party](https://github.com/bwinsight/mobile-omtg/tree/master/10_3rd_party)
-<br>11. Keyboard Cache
-<br>12. Clipboard
-<br>13. Memory
-<br>14. WebView Remote
+<br>[11. Keyboard Cache](https://github.com/bwinsight/mobile-omtg/tree/master/11_keyboard_cache)
+<br>[12. Clipboard](https://github.com/bwinsight/mobile-omtg/tree/master/12_clipboard)
+<br>[13. Memory](https://github.com/bwinsight/mobile-omtg/tree/master/13_memory)
+<br>[14. WebView Remote](https://github.com/bwinsight/mobile-omtg/tree/master/14_webview_remote)
 <br>15. WebView Local
 <br>16. Best Practice
 <br>17. SQL Injection
@@ -27,4 +27,4 @@ My solutions for these challanges have been published to help security researche
 <br>20. Secure Channel
 <br>21. SSL Pinning
 <br>22. SSL Pinning Whole Certificate
-<br><br><img src="https://user-images.githubusercontent.com/55597077/65364468-e9646d00-dc09-11e9-9b3e-9cc65dc36acf.png" width="377">
+<br><br><img src="https://user-images.githubusercontent.com/55597077/65364468-e9646d00-dc09-11e9-9b3e-9cc65dc36acf.png" width="296">
