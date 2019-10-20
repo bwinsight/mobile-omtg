@@ -1,0 +1,29 @@
+<HTML>
+
+<body>
+<h1 style="color: #5e9ca0;">This is a remote test page!</h1>
+<p id="p1">2</p>
+<input type="button" value="Press here to trigger Toast Message" onclick="fireToastMessage()" />
+	<script>
+	 	//check if JavaScript is activated
+		alert(43);
+		
+		var file = "file://storage/emulated/0/password.txt";
+var xhr = new XMLHttpRequest();
+xhr.overrideMimeType("text/plain; charset=iso-8859-1");
+xhr.open("GET", file, true);
+xhr.onreadystatechange = function() {
+ var data = xhr.responseText;
+// alert(data);
+}
+xhr.send();
+		
+		var result = window.Android.returnString();
+		document.getElementById("p1").innerHTML = result;
+		
+		function fireToastMessage() {
+			window.Android.showToast("this is executed by JavaScript"); 
+		}
+	</script>
+</body>
+</HTML>
