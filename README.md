@@ -19,7 +19,7 @@ My solutions for these challanges have been published to help security researche
 <br>[12. Clipboard](https://github.com/bwinsight/mobile-omtg/tree/master/12_clipboard)
 <br>[13. Memory](https://github.com/bwinsight/mobile-omtg/tree/master/13_memory)
 <br>[14. WebView Remote](https://github.com/bwinsight/mobile-omtg/tree/master/14_webview_remote)
-<br>15. WebView Local
+<br>[15. WebView Local](https://github.com/bwinsight/mobile-omtg/tree/master/15_webview_local)
 <br>16. Best Practice
 <br>17. SQL Injection
 <br>18. SQL Injection Content Provider
@@ -27,4 +27,4 @@ My solutions for these challanges have been published to help security researche
 <br>20. Secure Channel
 <br>21. SSL Pinning
 <br>22. SSL Pinning Whole Certificate
-<br><br><img src="https://user-images.githubusercontent.com/55597077/65364468-e9646d00-dc09-11e9-9b3e-9cc65dc36acf.png" width="296">
+<br><br><img src="https://user-images.githubusercontent.com/55597077/65364468-e9646d00-dc09-11e9-9b3e-9cc65dc36acf.png" width="296"><img src="https://user-images.githubusercontent.com/55597077/67234711-8569da00-f43d-11e9-9ff6-edaf95bc116e.png" width="296">
