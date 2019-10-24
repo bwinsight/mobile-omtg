@@ -20,9 +20,9 @@ My solutions for these challanges have been published to help security researche
 <br>[13. Memory](https://github.com/bwinsight/mobile-omtg/tree/master/13_memory)
 <br>[14. WebView Remote](https://github.com/bwinsight/mobile-omtg/tree/master/14_webview_remote)
 <br>[15. WebView Local](https://github.com/bwinsight/mobile-omtg/tree/master/15_webview_local)
-<br>16. Best Practice
-<br>17. SQL Injection
-<br>18. SQL Injection Content Provider
+<br>[16. Best Practice](https://github.com/bwinsight/mobile-omtg/tree/master/16_best_practice)
+<br>[17. SQL Injection](https://github.com/bwinsight/mobile-omtg/tree/master/17_sql_injection)
+<br>[18. SQL Injection Content Provider](https://github.com/bwinsight/mobile-omtg/tree/master/18_sql_injection_content_provider)
 <br>19. Code Injection
 <br>20. Secure Channel
 <br>21. SSL Pinning
