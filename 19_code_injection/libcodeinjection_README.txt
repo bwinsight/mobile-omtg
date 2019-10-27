@@ -1,0 +1,1 @@
+Repacked libcodeinjection.jar file, which can be placed to the /sdcard location.
