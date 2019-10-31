@@ -25,6 +25,6 @@ My solutions for these challanges have been published to help security researche
 <br>[18. SQL Injection Content Provider](https://github.com/bwinsight/mobile-omtg/tree/master/18_sql_injection_content_provider)
 <br>[19. Code Injection](https://github.com/bwinsight/mobile-omtg/tree/master/19_code_injection)
 <br>[20. Secure Channel](https://github.com/bwinsight/mobile-omtg/tree/master/20_secure_channel)
-<br>21. SSL Pinning
-<br>22. SSL Pinning Whole Certificate
+<br>[21. SSL Pinning](https://github.com/bwinsight/mobile-omtg/tree/master/21_ssl_pinning)
+<br>[22. SSL Pinning Whole Certificate](https://github.com/bwinsight/mobile-omtg/tree/master/22_ssl_pinning_whole_certificate)
 <br><br><img src="https://user-images.githubusercontent.com/55597077/65364468-e9646d00-dc09-11e9-9b3e-9cc65dc36acf.png" width="296"> <img src="https://user-images.githubusercontent.com/55597077/67234711-8569da00-f43d-11e9-9ff6-edaf95bc116e.png" width="296">
